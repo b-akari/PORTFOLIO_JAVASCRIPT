@@ -32,6 +32,7 @@ header{
     text-decoration: none;
     color: #2d3036;
     display: block;
+    font-weight: bold;
     padding: 10px 25px;
     border-radius: 50px;
     transition: 0.2s;
