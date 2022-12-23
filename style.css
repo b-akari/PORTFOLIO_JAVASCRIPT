@@ -14,8 +14,8 @@ body{
     color: white;
 }
 .navbar .navbar-nav a{
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 500;
+    color: #2d3036;
 }
 .navbar .navbar-nav a:hover{
     color: #D7A86E;
