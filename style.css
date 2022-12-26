@@ -451,6 +451,7 @@ form button{
     padding: 15px;
 }
 #footer h5{
+    color: #2d3036;
     font-size: 20px;
     padding-top: 1.4rem;
 }
@@ -476,4 +477,7 @@ form button{
 #footer .social_icons a:hover{
     color: white;
     border-color: white;
+}
+#footer h6{
+    color: #2d3036;
 }
