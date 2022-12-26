@@ -276,8 +276,14 @@ header{
 }
 
 /* css for contacts.html */
-.contact{
+#contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+}
+.contact{
+    /* width: 100%; */
     height: 100vh;
     display: flex;
     align-items: center;
