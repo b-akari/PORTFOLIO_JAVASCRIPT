@@ -204,7 +204,7 @@ header{
 }
 
 /* css for projects part in index.html */
-.cont{
+/* .cont{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -221,11 +221,11 @@ header{
     font-weight: bolder;
     color: #333;
     padding-bottom: 10px;
-}
+} */
 /* .cont .heading h3 span{
     font-weight: 100;
 } */
-.cont .box{
+/* .cont .box{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -303,7 +303,7 @@ footer{
     .cont .heading h3{
         font-size: 1em;
     }
-}
+} */
 
 
 /* css for projects.html */
