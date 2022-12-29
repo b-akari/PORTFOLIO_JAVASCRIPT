@@ -1,7 +1,9 @@
 /* colors:
 #D7A86E
 #FFF8EA 
-#2d3036*/
+#2d3036
+#FFF8EA
+*/
 
 *{
     margin: 0;
@@ -40,8 +42,8 @@ header{
     margin: 0 5px;
 }
 .nav-bar ul a:hover{
-    color: white;
-    background: #D7A86E;
+    color: #2d3036;
+    background: #FFF8EA;
 }
 @media only screen and (max-width: 1100px){
     #navbar{
@@ -121,6 +123,7 @@ header{
 }
 #main .container .col .contact_me:hover{
     background-color: #D7A86E;
+    font-weight: bold;
 }
 
 /* about me section */
@@ -134,12 +137,12 @@ header{
 /* home section */
 #home{
     /* margin: 5%; */
-    background-color: #e5bc89;
+    background-color: #FFF8EA;
 }
 #home #educ_bg h1{
     font-size: 30px;
 }
-#home #educ_bg .college h1{
+#home .college h1{
     font-size: 28px;
 }
 #home .college h3{
@@ -175,9 +178,25 @@ header{
     font-size: 18px;
     font-weight: 350;
 }
-
+@media only screen and (max-width: 900px){
+    #home #educ_bg h1{
+        font-size: 25px;
+    }
+    #home .college h1, #home .high_school h1, #home .elementary h1{
+        font-size: 20px;
+    }
+    #home .college h3, .high_school h3, #home .elementary h3{
+        font-size: 18px;
+    }
+    #home #m_skills h1{
+        font-size: 25px;
+    }
+}
 
 /* projects.html */
+#projects{
+    margin-bottom: 80px;
+}
 .cont{
     display: flex;
     flex-direction: column;
@@ -211,54 +230,6 @@ header{
     padding: 15px;
     border-radius: 5px;
 }
-footer{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 150px;
-}
-.social-links{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1.4rem;
-}
-.social-links a{
-    border: 2px solid #fff;
-    color: #fff;
-    display: block;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    text-decoration: none;
-    margin: 0rem 0.3rem;
-}
-
-@media screen and (min-width: 600px){
-    .navbar-nav a{
-        padding-right: 1.2rem;
-        padding-left: 1.2rem;
-    }
-    .banner-title{
-        font-size: 5rem;
-    }
-    .banner form{
-        margin-top: 1.4rem;
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-@media screen and (min-width: 768px){
-    .navbar .container{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-}
 @media only screen and (max-width: 768px){
     .cont .box{
         flex-direction: column;
@@ -272,19 +243,20 @@ footer{
         width: 100%;
     }
     .cont .heading h3{
-        font-size: 1em;
+        font-size: 2em;
     }
 }
 
 /* contacts.html */
 .contact{
-    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 80px;
+    /* background: url(images/contact.jpg) center/cover no-repeat fixed; */
 }
 form{
-    background: linear-gradient(#D7A86E, #FCDDB0);
+    /* background: linear-gradient(#D7A86E, #FCDDB0); */
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
@@ -295,6 +267,7 @@ form{
 form h3{
     margin: 20px;
     text-align: center;
+    font-weight: bold;
 }
 form input, form textarea{
     border: 0;
@@ -320,7 +293,7 @@ form button:hover{
 
 /* footer section */
 #footer{
-    background-color: #D7A86E;
+    background-color: #D0B8A8;
     text-align: center;
     padding: 15px;
 }
