@@ -4,6 +4,7 @@
 //     navBar.classList.toggle("active");
 // }
 
+// for navbar
 const hamburger = document.querySelector('.hamburger');
 const navBar = document.querySelector('.nav-bar');
 const content = document.querySelector(".nav-bar ul");
@@ -16,7 +17,7 @@ hamburger.addEventListener('click', () => {
 //     navBar.classList.toggle("hide");
 // })
 
-
+// for contact form
 const fname = document.getElementById("name");
 const email = document.getElementById("email");
 const number = document.getElementById("phone");
