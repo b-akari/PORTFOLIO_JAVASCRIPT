@@ -73,9 +73,6 @@ header{
     .nav-bar.active{
         height: 400px;
     }
-    /* .nav-bar.hide{
-        height: 0;
-    } */
     .nav-bar ul{
         display: block;
         width: fit-content;
@@ -87,35 +84,10 @@ header{
     .nav-bar.active ul{
         opacity: 1;
     }
-    /* .nav-bar.hide ul{
-        opacity: 0;
-    } */
     .nav-bar ul a{
         margin-bottom: 12px;
     }
 }
-
-
-
-
-
-
-/* .navbar .container-fluid a{
-    font-weight: bolder;
-    padding: 0 50px;
-    border-radius: 50px;
-}
-.navbar .container-fluid a:hover{
-    color: white;
-}
-.navbar .navbar-nav a{
-    font-weight: 500;
-    color: #2d3036;
-}
-.navbar .navbar-nav a:hover{
-    color: #D7A86E;
-} */
-
 
 #main{
     min-height: 100vh;
@@ -205,7 +177,7 @@ header{
 }
 
 
-/* css for projects part in index.html */
+/* projects.html */
 .cont{
     display: flex;
     flex-direction: column;
@@ -224,9 +196,6 @@ header{
     color: #333;
     padding-bottom: 10px;
 }
-/* .cont .heading h3 span{
-    font-weight: 100;
-} */
 .cont .box{
     display: flex;
     flex-direction: row;
@@ -307,94 +276,15 @@ footer{
     }
 }
 
-
-/* css for projects.html */
-#projects{
-    margin: 5%;
-}
-#projects{
-    text-align: center;
-}
-#projects h1{
-    font-weight: bolder;
-    font-size: 2.5rem;
-    letter-spacing: 1px;
-}
-#projects .proj1{
-    margin-bottom: 50px;
-}
-#projects .proj1 img{
-    padding: 10px;
-}
-#projects .proj1 h3{
-    font-weight: bold;
-}
-#projects .proj1 p{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#projects .proj2{
-    margin-bottom: 50px;
-}
-#projects .proj2 img{
-    padding: 10px;
-}
-#projects .proj2 h3{
-    font-weight: bold;
-}
-#projects .proj2 p{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#projects .proj3{
-    margin-bottom: 50px;
-}
-#projects .proj3 img{
-    padding: 10px;
-}
-#projects .proj3 h3{
-    font-weight: bold;
-}
-#projects .proj3 p{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#projects .proj4{
-    margin-bottom: 50px;
-}
-#projects .proj4 img{
-    padding: 10px;
-}
-#projects .proj4 h3{
-    font-weight: bold;
-}
-#projects .proj4 p{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#projects a{
-    background-color: #D7A86E;
-    color: white;
-    width: 40%;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-/* css for contacts.html */
-/* #contacts{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+/* contacts.html */
 .contact{
-    width: 100%;
-    height: 100vh;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 form{
-    background: #FFEBC1;
+    background: linear-gradient(#D7A86E, #FCDDB0);
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
@@ -403,7 +293,8 @@ form{
     border-radius: 10px;
 }
 form h3{
-    margin-bottom: 20px;
+    margin: 20px;
+    text-align: center;
 }
 form input, form textarea{
     border: 0;
@@ -415,7 +306,6 @@ form input, form textarea{
 }
 form button{
     padding: 15px;
-    background: #82AAE3;
     border: 0;
     outline: none;
     font-size: 18px;
@@ -424,29 +314,11 @@ form button{
     margin: 20px auto 0;
     border-radius: 30px;
 }
+form button:hover{
+    background: #FFF6BF;
+}
 
-/* #contacts{
-    text-align: center;
-    margin: 5%;
-}
-#contacts .address{
-    padding: 20px;
-}
-#contacts .phone{
-    padding: 20px;
-}
-#contacts .email{
-    padding: 20px;
-}
-#contacts .socmed{
-    padding: 20px;
-}
-#contacts .socmed a{
-    text-decoration: none;
-    color: #2d3036;
-} */
-
-/* css for footer */
+/* footer section */
 #footer{
     background-color: #D7A86E;
     text-align: center;
