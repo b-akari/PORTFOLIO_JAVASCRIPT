@@ -2,7 +2,7 @@
 #D7A86E
 #FFF8EA 
 #2d3036
-#FFF8EA
+#FCDDB0
 */
 
 *{
@@ -136,8 +136,8 @@ header{
 
 /* home section */
 #home{
-    /* margin: 5%; */
-    background-color: #FFF8EA;
+    
+    background: linear-gradient(#D7A86E, #FFF8EA);
 }
 #home #educ_bg h1{
     font-size: 30px;
@@ -252,11 +252,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 10px;
     padding-bottom: 80px;
-    /* background: url(images/contact.jpg) center/cover no-repeat fixed; */
 }
 form{
-    /* background: linear-gradient(#D7A86E, #FCDDB0); */
+    background: #D7A86E;
     display: flex;
     flex-direction: column;
     padding: 2vw 4vw;
